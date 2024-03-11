@@ -1,0 +1,12 @@
+---
+layout: layouts/page.njk
+permalink: /bikes/
+title: Start with a base model
+metaDesc: Check out custom steel hardtails, gravel, and all-road bikes.
+type: website
+---
+  <div class="feature card-grid">
+    {% for post in collections.bikes %}
+      {% include "partials/_card.njk" %}
+    {% endfor %}
+  </div>

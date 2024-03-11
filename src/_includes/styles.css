@@ -1,0 +1,531 @@
+:root {
+    /* @link https://utopia.fyi/type/calculator?c=320,16,1.25,1900,20,1.5,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+    --fs--1: clamp(0.8rem, 0.783rem + 0.0851vi, 0.884rem);
+    --fs-0: clamp(1rem, 0.9494rem + 0.2532vi, 1.25rem);
+    --fs-1: clamp(1.25rem, 1.1452rem + 0.5241vi, 1.7675rem);
+    --fs-2: clamp(1.5625rem, 1.3728rem + 0.9486vi, 2.4992rem);
+    --fs-3: clamp(1.9531rem, 1.633rem + 1.6008vi, 3.5339rem);
+   
+     --s-2xs: clamp(0.5rem, 0.4747rem + 0.1266vi, 0.625rem);
+     --s-xs: clamp(0.75rem, 0.712rem + 0.1899vi, 0.9375rem);
+     --s-s: clamp(1rem, 0.9494rem + 0.2532vi, 1.25rem);
+     --s-m: clamp(1.5rem, 1.4241rem + 0.3797vi, 1.875rem);
+     --s-l: clamp(2rem, 1.8987rem + 0.5063vi, 2.5rem);
+     --s-xl: clamp(3rem, 2.8481rem + 0.7595vi, 3.75rem);
+     --s-2xl: clamp(4rem, 3.7975rem + 1.0127vi, 5rem);
+     --s-3xl: clamp(6rem, 5.6962rem + 1.519vi, 7.5rem);
+   
+     /* One-up pairs */
+     --s-2xs-xs: clamp(0.5rem, 0.4114rem + 0.443vi, 0.9375rem);
+     --s-xs-s: clamp(0.75rem, 0.6487rem + 0.5063vi, 1.25rem);
+     --s-s-m: clamp(1rem, 0.8228rem + 0.8861vi, 1.875rem);
+     --s-m-l: clamp(1.5rem, 1.2975rem + 1.0127vi, 2.5rem);
+     --s-l-xl: clamp(2rem, 1.6456rem + 1.7722vi, 3.75rem);
+     --s-xl-2xl: clamp(3rem, 2.5949rem + 2.0253vi, 5rem);
+     --s-2xl-3xl: clamp(4rem, 3.2911rem + 3.5443vi, 7.5rem);
+   
+     --ratio: 1.5;
+     --padding: var(--s-s);
+   
+     /* Colors */
+     --light: #F9F7F3;
+     --lightish: #E9E7E2;
+     --dark: #373737;
+     --darkish: #757070;
+     --highlight: #A51323;
+   }
+
+/* Andy Bell Reset */
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+  margin-bottom: 0;
+  margin-inline: 0;
+}
+
+/* Set core body defaults */
+body {
+    background-color: var(--light);
+    color: var(--dark);
+    font-family: system-ui, sans-serif;
+    font-size: var(--fs-0);
+    line-height: var(--ratio);
+    margin:0;
+    min-height: 100vh;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+  line-height: 1.15;
+}
+
+/* Balance text wrapping on headings */
+h1, h2
+ {
+  text-wrap: balance;
+}
+
+/* Leave no orphaned words at the end of paragraphs */
+article p {
+  text-wrap: pretty;
+}
+
+/* A element styles */
+a {
+  text-decoration-skip-ink: auto;
+  color: currentColor;
+  text-decoration-thickness: 2px;
+  text-underline-offset: .2ex;
+}
+
+b, strong {
+    font-weight: 700;
+}
+
+ul, ol {
+  padding-inline-start: 1em;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  border: 1px solid var(--lightish);
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+  font: inherit;
+}
+
+/* Place labels above their input fields */
+label {
+  display: block;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+  min-height: 10em;
+}
+
+/** END RESET **/
+
+h1 {
+    font-size: var(--fs-3);
+    letter-spacing: -.01em;
+}
+
+h2 {
+    font-size: var(--fs-2);
+}
+
+h3 {
+    font-size: var(--fs-1);
+}
+
+small {
+    font-size: var(--fs--1);
+}
+
+/* Remove list styles on nav ul elements */
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-block: 0;
+}
+
+nav,
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--s-s-m);
+}
+
+nav {
+  flex-wrap: wrap;
+}
+
+nav ul {
+  line-height: 0;
+}
+
+header nav {
+  padding-top: var(--padding);
+}
+
+header,
+section,
+footer,
+.pagination {
+    margin-inline: auto;
+    width: min(75rem, 100% - var(--s-s) * 2);
+}
+
+.stack > * + * {
+    margin-top: calc(var(--ratio)*1em);
+}
+
+/* Grid-based layout that allows classed objects to expand outside the parent's width */
+.prose {
+    --gap: var(--s-s-m);
+    --full: minmax(var(--gap), 1fr);
+    --content: min(55ch, 100% - var(--gap) * 2);
+    --bump: minmax(0,var(--s-l));
+    --feature: minmax(0, var(--s-3xl));
+  
+    display: grid;
+    grid-template-columns:
+      [full-start] var(--full)
+      [feature-start] var(--feature)
+      [bump-start] var(--bump)
+      [content-start] var(--content) [content-end]
+      var(--bump) [bump-end]
+      var(--feature) [feature-end]
+      var(--full) [full-end];
+  }
+  
+  /* Set all children to central grid template column */
+  .prose > * {
+    grid-column: content;
+  }
+  
+  /* Set item to be much wider than main content */
+  .feature {
+    grid-column: feature;
+  }
+  
+  /* Set item to be a little wider than main content */
+  .bump {
+    grid-column: bump;
+  }
+
+  /* Layouts */
+
+  .details-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: var(--s-2xs);
+  }
+  
+  summary  {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding);
+    border: 1px solid var(--lightish);
+    background-color: #fff;
+  }
+  
+  /* Remove default marker for Safari */
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after {
+    content: "\0276f";
+  }
+  
+  details[open] summary:after {
+    content:"\0276f";
+    transform: rotate(270deg);
+  }
+  
+  details[open] summary {
+    border-bottom:0;
+  }
+  
+  details div {
+    padding: var(--padding);
+    padding-top: 0;
+    border: 1px solid var(--lightish);
+    border-top:0;
+    background-color: #fff;
+  }
+
+  details div :first-child {
+    margin-top: 0;
+  }
+
+  .card {
+    padding: var(--padding);
+    background-color: #fff;
+    border: 1px solid var(--lightish);
+  }
+
+  .card figcaption p:first-of-type {
+    margin-top: 0;
+  }
+  .switcher {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--padding);
+  }
+  
+  .switcher > * {
+    flex-grow: 1;
+    flex-basis: calc(( 34rem - 100%) * 999);
+  }
+  
+  .switcher > :nth-last-child(n+ 5),
+  .switcher > :nth-last-child(n+ 5) ~ * {
+    flex-basis: 100%;
+  }
+
+  .swatch-grid {
+    display: grid;
+    grid-gap: var(--padding);
+    justify-items: center;
+    text-align: center;
+  }
+
+  .swatch-grid img {
+    margin-inline: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+  
+  @supports (width: min(100px, 100%)) {
+    .swatch-grid {
+      grid-template-columns: repeat(auto-fit, minmax(min(100px, 100%), 1fr));
+    }
+  }
+
+  .swatch-grid figcaption {
+    line-height: 1;
+  }
+
+  footer {
+    border-top: 1px solid var(--lightish);
+    margin-top: var(--s-2xl-3xl);
+    margin-bottom: var(--padding);
+    text-align: center;
+  }
+
+  footer nav {
+    margin-top: var(--s-2xl-3xl);
+    justify-content: center;
+  }
+
+  footer p {
+    margin-top: var(--s-xl-2xl);
+  }
+
+form[name="Contact"] {
+  border: 1px solid var(--lightish);
+  padding: var(--padding);
+  font-size: var(--fs--1);
+  margin-top: var(--s-l);
+}
+
+form[name="Contact"] input,
+form[name="Contact"] textarea {
+  border: 1px solid var(--lightish);
+  background-color: #fff;
+  outline: none;
+  padding: var(--padding);
+  width: 100%;
+}
+
+form[name="Contact"] input:focus,
+form[name="Contact"] textarea:focus {
+  border-color: var(--darkish);
+}
+
+form[name="Contact"] button {
+  cursor: pointer;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: var(--highlight);
+  color: var(--light);
+  text-transform: uppercase;
+  padding: var(--padding);
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+
+form[name="Contact"] label,
+form[name="Contact"] button {
+  margin-top: var(--padding);
+}
+
+form[name="Contact"] input,
+form[name="Contact"] textarea {
+  margin-top: var(--s-2xs);
+}
+
+form[name="Contact"] label:first-of-type {
+  margin-top: 0;
+}
+
+form[name="Contact"] label[for="bot"],
+form[name="Contact"] input[name="bot-field"] {
+  display: none;
+}
+
+.card-grid {
+  display: grid;
+  grid-gap: var(--padding);
+}
+
+.card-grid figure {
+  margin-block:0;
+}
+
+@supports (width: min(300px, 100%)) {
+  .card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  }
+}
+
+hgroup p {
+  color: var(--darkish);
+}
+
+hgroup > * {
+  margin: 0;
+  text-align: center;
+}
+
+section + section {
+  margin-top: var(--s-2xl-3xl);
+}
+
+.cta {
+  background-color: var(--highlight);
+  color: var(--light);
+  text-transform: uppercase;
+  font-size: var(--fs--1);
+  letter-spacing: .02em;
+  font-weight: 700;
+  padding: var(--s-s);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cta-alt {
+  background-color: var(--dark);
+}
+
+.center {
+  text-align: center;
+}
+
+.hero {
+  margin-top: var(--s-2xl);
+}
+
+.hero img {
+  aspect-ratio: 1/1;
+}
+
+.hero h1 {
+  margin-top: 0;
+}
+
+.hero-content p {
+  max-width: 34ch;
+}
+
+@media (min-width: 800px){
+  .hero {
+    display: grid;
+    grid-template-areas: "hero";
+    align-items: center;
+  }
+  
+  .hero > * {
+    grid-area: hero;
+  }
+  
+  .hero img {
+    object-fit: cover;
+    width: 65%;
+    @media (min-width: 60rem) {
+      width: 60%;
+      justify-self: end;
+    }
+    
+  }
+  
+  .hero-content {
+    max-width: 60ch;
+    min-width: 30ch;
+    z-index: 1;
+    background-color: rgba(249, 247, 243, .8);
+    padding: var(--s-s-m) var(--s-s-m) var(--s-s-m) 0;
+  }
+}
+
+.highlights {
+  margin-top: var(--s-2xl);
+}
+.highlights figure {
+  display: grid;
+  gap: var(--padding);
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+  align-items: center;
+}
+
+.highlights h3 {
+  margin-top: 0;
+}
+
+.mt-xl {
+  margin-top: var(--s-xl);
+}
+
+.mt-2xl {
+  margin-top: var(--s-2xl);
+}
+
+table {
+  width: 100%;
+  border: 1px solid var(--lightish);
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+}
+
+th,
+td {
+  padding-block: calc(var(--s-s)/2);
+  padding-inline: var(--s-s);
+  font-size: var(--fs--1);
+}
+
+tr:nth-child(even) {
+  background-color: var(--light);
+}
+
+.mt-s {
+  margin-top: var(--s-s);
+}
+
+
+
+  

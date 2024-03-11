@@ -1,0 +1,20 @@
+<div class="pagination stack mt-2xl">
+    <h3 class="center">Check out these other posts</h3>
+    <div class="card-grid">
+    {% set previousPost = collections.blog | getPreviousCollectionItem %}
+    {% if previousPost %}
+        <figure class="card stack">
+            <a href="{{ previousPost.url }}"><img data-blink-uuid="{{ previousPost.data.featuredImage }}" alt="{{ previousPost.data.alt }}" width="900px" height="600px"></a>
+            <figcaption><a href="{{ previousPost.url }}">{{ previousPost.data.title }}</a></figcaption>
+        </figure>
+    {% endif %}
+    {% set nextPost = collections.blog | getNextCollectionItem %}
+    {% if nextPost %}
+        <figure class="card stack">
+            <a href="{{ nextPost.url }}"><img data-blink-uuid="{{ nextPost.data.featuredImage }}" alt="{{ nextPost.data.alt }}" width="900px" height="600px"></a>
+            <figcaption><a href="{{ nextPost.url }}">{{ nextPost.data.title }}</a></figcaption>
+        </figure>
+    {% endif %}
+    </div>
+</div>
+
