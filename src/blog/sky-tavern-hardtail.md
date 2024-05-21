@@ -14,7 +14,7 @@ The bike will be on display at the MayDay Festival at Sky Tavern on May 19 from 
 
 There is only one of these hardtails available. Get it before it's gone!
 
-**$4,999**
+~~$4,999~~ **SOLD!**
 
 I'll send an online invoice to the first person who [contacts me](https://manzanitacycles.com/contact) about purchasing the bike. 
 
