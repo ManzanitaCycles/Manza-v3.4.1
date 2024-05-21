@@ -120,3 +120,5 @@ Starting at **{{ pricing.baseFrame }}**
     {% img "d7902a6f-6ca5-4f46-8c03-9af421866827", "1x Sram gravel bike" %}
     {% img "51e1f59a-1b8c-4430-8466-7c2f8f8a654b", "Dark red gravel bike with dropper post" %}
 </div>
+
+{% img "5b588f68-ded5-49f7-9d9c-15ef7d094a5b", "gravel bike with mountain bike tires", "feature" %}
