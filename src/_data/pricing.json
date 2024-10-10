@@ -19,6 +19,7 @@
     "optionLiquidPaintFrame": "$200",
     "optionLiquidPaintFork": "$100",
     "optionShippingBase": "$75",
-    "optionDropperPort": "$40"
+    "optionDropperPort": "$40",
+    "baseWhippet": "$2,599"
     
 }

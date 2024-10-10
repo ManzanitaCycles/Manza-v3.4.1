@@ -268,6 +268,10 @@ footer,
     margin-top: 0;
   }
 
+  details div:not(:first-child) {
+    padding-top: var(--s-s);
+  }
+
   .card {
     padding: var(--padding);
     background-color: #fff;
@@ -332,15 +336,18 @@ footer,
     margin-top: var(--s-xl-2xl);
   }
 
-form[name="Contact"] {
+form {
   border: 1px solid var(--lightish);
   padding: var(--padding);
-  font-size: var(--fs--1);
   margin-top: var(--s-l);
 }
 
-form[name="Contact"] input,
-form[name="Contact"] textarea {
+form input, form textarea, form label {
+  font-size: var(--fs--1);
+}
+
+form input,
+form textarea {
   border: 1px solid var(--lightish);
   background-color: #fff;
   outline: none;
@@ -348,12 +355,12 @@ form[name="Contact"] textarea {
   width: 100%;
 }
 
-form[name="Contact"] input:focus,
-form[name="Contact"] textarea:focus {
+form input:focus,
+form textarea:focus {
   border-color: var(--darkish);
 }
 
-form[name="Contact"] button {
+form button {
   cursor: pointer;
   width: 100%;
   outline: none;
@@ -366,22 +373,22 @@ form[name="Contact"] button {
   letter-spacing: .02em;
 }
 
-form[name="Contact"] label,
-form[name="Contact"] button {
+form label,
+form button {
   margin-top: var(--padding);
 }
 
-form[name="Contact"] input,
-form[name="Contact"] textarea {
+form input,
+form textarea {
   margin-top: var(--s-2xs);
 }
 
-form[name="Contact"] label:first-of-type {
+form label:first-of-type {
   margin-top: 0;
 }
 
-form[name="Contact"] label[for="bot"],
-form[name="Contact"] input[name="bot-field"] {
+form label[for="bot"],
+form input[name="bot-field"] {
   display: none;
 }
 
@@ -433,50 +440,26 @@ section + section {
   text-align: center;
 }
 
-.hero {
-  margin-top: var(--s-2xl);
+.overlay {
+  border-image: fill 1 linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7));
 }
 
-.hero img {
-  aspect-ratio: 1/1;
+.hero {
+  margin-top: var(--s-2xl);
+  color: var(--light);
+  background-image: url(https://ucarecdn.com/ff273bb7-d725-4cbc-89e9-e9461a74f0e2/);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-block-size: 80vh;
+  place-content: center;
+  text-align: center;
 }
 
 .hero h1 {
   margin-top: 0;
-}
-
-.hero-content p {
-  max-width: 34ch;
-}
-
-@media (min-width: 800px){
-  .hero {
-    display: grid;
-    grid-template-areas: "hero";
-    align-items: center;
-  }
-  
-  .hero > * {
-    grid-area: hero;
-  }
-  
-  .hero img {
-    object-fit: cover;
-    width: 65%;
-    @media (min-width: 60rem) {
-      width: 60%;
-      justify-self: end;
-    }
-    
-  }
-  
-  .hero-content {
-    max-width: 60ch;
-    min-width: 30ch;
-    z-index: 1;
-    background-color: rgba(249, 247, 243, .8);
-    padding: var(--s-s-m) var(--s-s-m) var(--s-s-m) 0;
-  }
+  text-transform: uppercase;
+  font-weight: 200;
+  font-style: italic;
 }
 
 .highlights {
@@ -493,12 +476,32 @@ section + section {
   margin-top: 0;
 }
 
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-s {
+  margin-top: var(--s-s);
+}
+
 .mt-xl {
   margin-top: var(--s-xl);
 }
 
 .mt-2xl {
   margin-top: var(--s-2xl);
+}
+
+.bg-dark {
+  background-color: var(--dark)
+}
+
+.clr-light {
+  color: var(--light);
+}
+
+.button {
+  border: none;
 }
 
 table {
@@ -522,9 +525,7 @@ tr:nth-child(even) {
   background-color: var(--light);
 }
 
-.mt-s {
-  margin-top: var(--s-s);
-}
+
 
 
 
