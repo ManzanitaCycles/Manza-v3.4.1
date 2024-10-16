@@ -1,10 +1,12 @@
 ---
 layout: layouts/base.njk
 ---
-<article class="stack prose">
+<article>
     <h1>{{ title }}</h1>
     {{ content | safe }}
-</article>
-{% if tags == "blog" %}
+    {% if tags == "blog" %}
 {% include "partials/_pagination.njk" %}
 {% endif %}
+</article>
+
+

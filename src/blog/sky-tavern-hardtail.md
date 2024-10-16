@@ -30,7 +30,7 @@ The top, down, and seat tubes are heat-treated chromoly tubes specifically desig
 
 You can mount a bottle cage to the seat tube without interfering with the long dropper post thanks to the custom stand-offs. Under the down tube you'll find a 3d-printed housing guide and frame protector.
 
-<div class="card-grid feature">
+<div class="grid feature">
 {% img "e376368b-ae32-49a2-8032-316c41b9f9d9", "water bottle mount stand-offs" %}
 {% img "6038ed73-bfd8-4acb-9f23-e6ee4c8118f0", "3d-printed frame protector" %}
 </div>
@@ -103,7 +103,7 @@ OneUp Components takes care of the cockpit and dropper post. OneUp continues to 
 
 The excellent Sram GX Eagle drivetrain shifts smoothly and reliably. No batteries required.
 
-<div class="card-grid feature">
+<div class="grid feature">
 {% img "d6e133a8-2bec-4252-a600-89e678a6e6f9", "OneUp Components cockpit" %}
 {% img "bf001560-76aa-4636-8c5d-9aed1b0628bb", "Sram GX Eagle drivetrain" %}
 </div>

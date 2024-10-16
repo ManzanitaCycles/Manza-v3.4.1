@@ -1,9 +1,6 @@
-<figure class="card">
+<figure class="stack">
     <a href="{{ post.url }}"><img data-blink-uuid="{{ post.data.featuredImage }}" alt="{{ post.data.alt }}" width="900px" height="600px"></a>
-  <figcaption class="mt-s">
-    <p><a href="{{ post.url }}">{{ post.data.title }}</a></p>
-    {% if (post.data.desc) %}
-    <p>{{ post.data.desc }}</p>
-    {% endif %}
+  <figcaption>
+    <a href="{{ post.url }}">{{ post.data.title }}</a>
   </figcaption>
 </figure>

@@ -12,7 +12,7 @@ Otherwise, please fill out the form below to start a conversation. You can expec
 
 {% include "partials/_contact-form.njk" %}
 
-<p><em><small>Your email address will not be used for spam or other shady stuff. Manzanita Cycles is only in the business of making great bikes.</small></em></p>
+<small><em>Your email address will not be used for spam or other shady stuff. Manzanita Cycles is only in the business of making great bikes.</em></small>
 
 
 

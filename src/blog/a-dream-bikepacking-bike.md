@@ -29,7 +29,7 @@ What does your ideal bikepacking bike look like? [Let me know](https://manzanita
 
 {% img "5a3d1043-af9b-45b6-98d4-cbc653c17592", "Blue and gold bikepacking bike", "feature" %}
 
-<div class="feature card-grid">
+<div class="feature grid">
 {% img "8c5d1a62-82b4-4ec5-9942-83ac0f2b2660", "Rockgeist bolt-on framebag" %}
 {% img "ca366a2c-7470-4abd-8e14-3f271fab71f4", "Thomson stem and Soma Dream bars" %}
 {% img "f0e0cff2-9ad3-43a8-9d06-5288dc2035f3", "Manzanita Cycles brass head tube badge" %}

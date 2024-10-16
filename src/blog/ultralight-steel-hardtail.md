@@ -32,7 +32,7 @@ It isn’t easy to shave a lot of weight from a steel hardtail frame without sac
 
 Starting with the front triangle, I chose the Paragon Machine Works tapered EC34/EC44 head tube. It’s the lightest commercially available head tube for tapered steerers that’s robust enough for a mountain bike. Plus, it’s a beautiful piece of CNC wizardry.
 
-<div class="card-grid feature">
+<div class="grid feature">
 {% img "099c2175-bfd2-44fa-904d-4badef9693ec", "Manzanita head tube badge painted coral to match the rest of the graphics" %}
 {% img "45915be2-7228-4fe4-a93c-8567d74271d4", "No seat stay bridge to save weight" %}
 </div>
@@ -71,7 +71,7 @@ Darimo made me a 720mm handlebar with reinforced holes for the tiny Zirbel twist
 
 The Extralite foam grips and headset added very little extra weight.
 
-<div class="card-grid feature">
+<div class="grid feature">
 {% img "cf3d0e4f-9249-493c-a4be-39dceaa8a927", "Clean cockpit with only brake lines showing" %}
 {% img "80c555d1-0eb3-464c-a8eb-0dfa0d1697e2", "Zirbel shifter is barely noticeable on the handlebars" %}
 </div>
@@ -94,7 +94,7 @@ I originally wanted to get some of the Trickstuff Piccola brakes for the build s
 
 The calipers will squeeze some Carbon-Ti rotors: 180mm up front and 160mm in the back. The lightweight carbon spider allows Carbon-Ti to keep more material for the braking surface, where it belongs. The lightest brake rotors have so much machined away from the braking surface that they don’t provide enough surface area for the pads to do their job.
 
-<div class="card-grid feature">
+<div class="grid feature">
 {% img "5220fc9c-d951-4c8a-aa3a-b73466406706", "Magura flat mount brake" %}
 {% img "52c79738-b431-4ea0-861e-421c82186b3f", "A glimpse of the brake line as it runs out of the down tube toward the rear wheel" %}
 </div>

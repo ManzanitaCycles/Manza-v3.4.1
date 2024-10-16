@@ -26,7 +26,7 @@ Robb decided to run the new Sram Apex Eagle mechanical drivetrain. The Apex shif
 
 The Apex Eagle shifters pair with the new Apex Eagle rear derailleur, which can shift the Eagle 10-52t cassettes. This has been a long-standing request from the cycling public for years. These so-called mullet drivetrains allow cross-compatibility with Sram's road and mountain bike drivetrains. It's a huge win for cyclists who live in mountainous terrain.
 
-<div class="card-grid feature">
+<div class="grid feature">
 {% img "a443132b-992d-4dec-85a8-530ae70e4a63", "Sram Apex Eagle drivetrain" %}
 {% img "d15b2e53-4aac-4482-805d-4f21969729bf", "White Industries crankset with Sram Apex Eagle drivetrain" %}
 </div>
@@ -35,17 +35,18 @@ Robb chose the Astral Outback aluminum rims with Astral hubs that are made by Wh
 
 To top off the build, we added some Campandgoslow western rattler bar tape and some cerakoted King Iris bottle cages supplied by Myth Cycles.
 
-<div class="card-grid feature">
+Overall, I love the stance of this bike. The big tires and low and long frame remind me of classic rally cars. 
+
+<div class="grid feature">
 {% img "cd390e3a-398c-4b1d-9af9-eed6cf311466", "Campandgoslow western rattler bar tape" %}
 {% img "1a3078ef-332a-4008-9c70-d78b7dedd32c", "King Iris cages cerakoted black by Myth Cycles" %}
 </div>
 
-Overall, I love the stance of this bike. The big tires and low and long frame remind me of classic rally cars. 
-
-<div class="card-grid feature">
+<div class="grid feature">
 {% img "08a32884-9448-4011-92bf-f1865e1332c0", "welded steel gravel bike" %}
 {% img "5e7d43c5-d3aa-4436-a1d2-21c434c94f0c", "Battle Born graphic painted on down tube" %}
 </div>
+
 {% img "d2834948-d0c2-4b72-bd77-eb4c5042f239", "Steel gravel bike", "feature" %}
 
 

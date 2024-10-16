@@ -9,7 +9,7 @@ metaDesc: A modern mountain bike designed for your terrain and riding style.
 {% img "a70f48d1-87cc-41c4-993d-f396e036cd52", "29er hardtail, UDH compatible" %}
 </div>
 
-## Max fun on the trail
+<h2 class="h1 center feature">Max fun on the trail</h2>
 
 Your Manzanita hardtail will be designed and built for you. The fit, geometry, and tubing selection will be tuned for your weight, riding style, and frame size.
 
@@ -45,7 +45,7 @@ Starting at **{{ pricing.baseFrame }}**
 	</figure>
 </div>
 
-<div class="details-wrapper bump mt-2xl">
+<div class="bump stack">
     <details>
 		<summary>Frame specifications</summary>
 		<div>
@@ -166,8 +166,6 @@ Starting at **{{ pricing.baseFrame }}**
 	</details>
 </div>
 
-{% img "61df4835-1701-40e9-b73a-d82944b6b220", "Hardtail with Ingrid cranks", "feature mt-2xl" %}
+{% img "61df4835-1701-40e9-b73a-d82944b6b220", "Hardtail with Ingrid cranks", "feature" %}
 
-<div class="bump mt-2xl">
 {% quote "9f53c3dd-1d50-4e9e-b42f-333339fb69be", "Carlos riding his hardtail in the Alps.", "The final feeling when you get to ride the bike is pure satisfaction...", "Carlos B.", "stack" %}
-</div>

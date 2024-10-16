@@ -12,11 +12,9 @@ On the other hand, when I visit a website that loads quickly and is simply-desig
 
 ## The Manzanita Cycles website is my attempt at making something fast and simple
 
-<ol class="stack">
-<li>There are no ads, trackers, cookies, analytics, or other 3rd-party spyware that get in the way or slow you down.</li>
-<li>The default font is your device's system font. It's already loaded on your device and it's designed to be legible.</li>
-<li>The images are served in a compressed format via a content delivery network to make load times as quick as possible.</li>
-<li>The website is a collection of static HTML files with a dash of CSS to dress up the raw output.</li>
-</ol>
+1. There are no ads, trackers, cookies, analytics, or other 3rd-party spyware that get in the way or slow you down.
+2. The default font is your device's system font. It's already loaded on your device and it's designed to be legible.
+3. The images are served in a compressed format via a content delivery network to make load times as quick as possible.
+4. The website is a collection of static HTML files with a dash of CSS to dress up the raw output.
 
 Thanks for reading my little rant. If you have suggestions how to improve the performance of this site, please don't hesitate to [contact me](https://manzanitacycles.com/contact). I'm not a professional web developer or designer, just a frugal hobbiest with some opinions about how bloated websites have become.

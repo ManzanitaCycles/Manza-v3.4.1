@@ -5,16 +5,19 @@ metaDesc: Custom steel bike frames for your next adventure
 type: website
 featuredImage: 006ce2cf-8c8e-44f7-a7a5-96a2609936b3
 ---
-<section class="hero stack overlay">
-  <h1>Whippet</h1>
-  <p>A fast and comfortable gravel bike that's easy to love.</p>
-  <p><a class="cta" href="/bikes/whippet">Learn more</a></p>
+<section class="stack">
+  <hgroup class="stack">
+    <h1><em>Whippet</em></h1>
+    <p>A fast and comfortable gravel bike that's easy to love.</p>
+    <p class="mt-b"><a role="button" href="/bikes/whippet">Learn more</a></p>
+  </hgroup>
+  <img class="mt-b" data-blink-uuid="ff273bb7-d725-4cbc-89e9-e9461a74f0e2" alt="whippet gravel bike" width="1440" height="1440">
 </section>
 
 <section>
   <hgroup>
-    <h2>Custom or stock?</h2>
-    <p><strong>Choose your own adventure</strong></p>
+    <h2 class="h1">Custom or stock?</h2>
+    <p>Choose your own adventure</p>
   </hgroup>
   <div class="switcher">
       {% for post in collections.bikes %}
@@ -25,8 +28,8 @@ featuredImage: 006ce2cf-8c8e-44f7-a7a5-96a2609936b3
 
 <section>
   <hgroup>
-    <h2>Manzanita love</h2>
-    <p><strong>I swear these customers weren't bribed</strong></p>
+    <h2 class="h1">Manzanita love</h2>
+    <p>I swear these customers weren't bribed</p>
   </hgroup>
   <div class="switcher">
   {% for quote in quotes %}
@@ -37,8 +40,8 @@ featuredImage: 006ce2cf-8c8e-44f7-a7a5-96a2609936b3
 
 <section>
   <hgroup>
-    <h2>From the blog</h2>
-    <p><strong>Build logs, trip reports, and opinion pieces</strong></p>
+    <h2 class="h1">From the blog</h2>
+    <p>Build logs, trip reports, and opinion pieces</p>
   </hgroup>
   <div class="switcher">
     {% set latest_posts = collections.blog | reverse %}
@@ -46,5 +49,5 @@ featuredImage: 006ce2cf-8c8e-44f7-a7a5-96a2609936b3
       {% include "partials/_card.njk" %}
     {% endfor %}
   </div>
-  <p class="center"><a class="cta cta-alt" href="/blog">View all posts</a></p>
+  <p class="center mt-b"><a role="button" href="/blog">View all posts</a></p>
 </section>

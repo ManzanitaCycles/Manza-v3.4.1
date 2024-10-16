@@ -5,70 +5,112 @@ alt: Whippet gravel bike
 metaDesc: The Whippet is a fast and comfortable gravel bike that's easy to love.
 ---
 
-{% img "ff273bb7-d725-4cbc-89e9-e9461a74f0e2", "gravel bike with mountain bike tires", "feature" %}
+<p class="center">Coming early 2025!</p>
 
-## A fast and comfortable gravel bike that's easy to love
+{% img "ff273bb7-d725-4cbc-89e9-e9461a74f0e2", "gravel bike with mountain bike tires", "full" %}
 
-This page is a work in progress. I'm currently (Oct. 9, 2024) waiting for some machined parts so I can build a second prototype for testing.
+<section class="full">
+	<h2 class="center h1">A fast and comfortable gravel bike that's easy to love</h2>
+</section>
 
-Feel free to poke around. You'll find a geometry chart below. This isn't set in stone yet. But it'll likely be really close to the final numbers.
-
-Soon you'll also be able to easily figure out what size frame will fit you. I'm really excited about this. It's a calculator that you'll adjust in order to know not only the right frame size but also the right stem length, stem angle, and spacer stack you'll need to set up your bike for an accurate fit.
-
-<div class="bump" id="mc_embed_shell">
-<div id="mc_embed_signup">
-    <form action="https://manzanitacycles.us21.list-manage.com/subscribe/post?u=d0ee4c8d2e29b450b06192342&amp;id=d19dcabe00&amp;f_id=009988e6f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate bg-dark clr-light" target="_self" novalidate="">
-		<div>
-			<h3 class="mt-0"><strong>Subscribe now to get the latest Whippet news</h3>
-			<p>I'm working hard to get this bike ready for production. Entering your email address below will help you stay up to date with my progress.</p>
+<section class="full">
+	<div class="grid">
+		{% img "f5aa3521-0956-40b9-ad29-28f2695a248b", "CNC machined UDH dropout insert" %}
+		<div class="card flex-center">
+			<h2 class="mt-0">Future-proof dropouts</h2>
+			<p>The laser-cut dropouts feature bolt-on inserts designed for Sram UDH and flat mount brakes. When new standards emerge, a quick swap of the inserts will keep your Whippet up-to-date.</p>
 		</div>
-        <div class="mt-s" id="mc_embed_signup_scroll">
-            <div class="mc-field-group"><label for="mce-EMAIL">Email Address</label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
-        <div id="mce-responses" class="clear foot">
-            <div class="response" id="mce-error-response" style="display: none;"></div>
-            <div class="response" id="mce-success-response" style="display: none;"></div>
-        </div>
-		<div aria-hidden="true" style="position: absolute; left: -5000px;">
-			/* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
-			<input type="text" name="b_d0ee4c8d2e29b450b06192342_d19dcabe00" tabindex="-1" value="">
-		</div>
-			<div class="clear foot">
-				<input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button cta" value="Subscribe">
-			</div>
-		</div>
-	</form>
-</div>
-</div>
+	</div>
+</section>
 
+<section class="full">
+	<div class="grid">
+		<div class="card flex-center">
+			<h2 class="mt-0">The best gravel tires are mountain bike tires</h2>
+			<p>The Whippet is optimized for 50 mm - 58 mm tires so you can ride faster with more comfort and control on whatever type of terrain you call gravel.</p>
+		</div>
+		{% img "14839a8a-10b4-450c-9fc0-b45ce84ddfc5", "The Whippet frame can clear a 58mm-wide tire." %}
+	</div>
+</section>
 
-<div class="details-wrapper feature mt-2xl">
-    <details>
-		<summary>Geometry</summary>
-        <div>
-        <table>
-        <thead><tr><th></th><th>M1</th><th>M2</th><th>M3</th><th>M4</th><th>M5</th><th>M6</th><th>M7</th><th>M8</th></tr></thead><tbody>
-        <tr><th>Average rider height</th><td>5'2"</td><td>5'4"</td><td>5'6"</td><td>5'8"</td><td>5'10"</td><td>6'0"</td><td>6'2"</td><td>6'4"</td></tr>
-        <tr><th>Average saddle height</th><td>662</td><td>683</td><td>704</td><td>725</td><td>747</td><td>768</td><td>790</td><td>811</td></tr>
-        <tr><th>Reach</td><td>356</th><td>367</td><td>378</td><td>390</td><td>401</td><td>413</td><td>425</td><td>436</td></tr>
-        <tr><th>Stack</td><td>537</th><td>558</td><td>579</td><td>597</td><td>614</td><td>632</td><td>650</td><td>667</td></tr>
-        <tr><th>Head tube angle</th><td>70.50</td><td>70.50</td><td>70.50</td><td>70.50</td><td>70.50</td><td>70.50</td><td>70.50</td><td>70.50</td></tr>
-        <tr><th>Head tube length</th><td>88</td><td>110</td><td>120</td><td>138</td><td>157</td><td>176</td><td>200</td><td>218</td></tr>
-        <tr><th>Seat tube angle*</th><td>73.50</td><td>73.00</td><td>72.75</td><td>72.75</td><td>72.50</td><td>72.50</td><td>72.50</td><td>72.50</td></tr>
-        <tr><th>Seat tube length**</th><td>412</td><td>433</td><td>454</td><td>475</td><td>497</td><td>528</td><td>550</td><td>571</td></tr>
-        <tr><th>Chainstay length</th><td>420</td><td>420</td><td>425</td><td>427</td><td>430</td><td>435</td><td>440</td><td>445</td></tr>
-        <tr><th>Bottom bracket drop</th><td>74</td><td>74</td><td>86</td><td>86</td><td>86</td><td>86</td><td>81</td><td>81</td></tr>
-        <tr><th>Bottom bracket height***</th><td>275</td><td>275</td><td>282</td><td>282</td><td>282</td><td>282</td><td>287</td><td>287</td></tr>
-        <tr><th>Wheel size</th><td>650b</td><td>650b</td><td>700c</td><td>700c</td><td>700c</td><td>700c</td><td>700c</td><td>700c</td></tr>
-        <tr><th>Wheelbase</th><td>989</td><td>1008</td><td>1025</td><td>1045</td><td>1066</td><td>1089</td><td>1115</td><td>1137</td></tr>
-        <tr><th>Mechanical trail</th><td>63</td><td>63</td><td>70</td><td>70</td><td>70</td><td>70</td><td>70</td><td>70</td></tr>
-        </tbody></table>
-        </div>
-        <div>
-        <p>*Angle at average saddle height<br />**Center to top<br />***Based on 57mm tire</p>
-        </div>
-    </details>
-    <details>
-		<summary>Frame specifications</summary>
+<section class="full">
+	<div class="grid">
+		{% img "ff273bb7-d725-4cbc-89e9-e9461a74f0e2", "Ollie Cleveland of Dark Matter Finishing applies a clear coat over a Manzanita frame." %}
+		<div class="card flex-center">
+			<h2 class="mt-0">Easy to love</h2>
+			<p>External routing is a feature! 3d-printed housing guides keep the Whippet rattle-free and easy to maintain. The guide setup can be configured depending on whether you're running a wireless drivetrain and dropper post. The zip-tie-free friction guides keep the bike looking sleek.</p>
+		</div>
+	</div>
+</section>
+
+<section class="full">
+	<div class="grid">
+		<div class="card flex-center">
+			<h2 class="mt-0">Proportional frame sizes</h2>
+			<p>Short and tall riders finally get frames that scale for their size so everyone can enjoy a bike that handles intuitively. The frame tubes also scale to get that perfect blend of precision and suppleness that steel is famous for.</p>
+		</div>
+		{% img "ff273bb7-d725-4cbc-89e9-e9461a74f0e2", "Ollie Cleveland of Dark Matter Finishing applies a clear coat over a Manzanita frame." %}
+	</div>
+</section>
+
+<section class="full stack">
+	<hgroup>
+		<h2 class="h1">Geometry</h2>
+		<p>Proportional sizes for a consistent ride feel.</p>
+	</hgroup>
+
+<table>
+	<thead><tr><th></th><th>M1</th><th>M2</th><th>M3</th><th>M4</th><th>M5</th><th>M6</th><th>M7</th><th>M8</th></tr></thead><tbody>
+	<tr><th>Average rider height</th><td>5'2"</td><td>5'4"</td><td>5'6"</td><td>5'8"</td><td>5'10"</td><td>6'0"</td><td>6'2"</td><td>6'4"</td></tr>
+	<tr><th>Average saddle height</th><td>662</td><td>683</td><td>704</td><td>725</td><td>747</td><td>768</td><td>790</td><td>811</td></tr>
+	<tr><th>Reach</td><td>356</th><td>367</td><td>378</td><td>390</td><td>401</td><td>413</td><td>425</td><td>436</td></tr>
+	<tr><th>Stack</td><td>541</th><td>558</td><td>579</td><td>597</td><td>614</td><td>632</td><td>654</td><td>671</td></tr>
+	<tr><th>Head tube angle</th><td>70.50</td><td>70.50</td><td>70.50</td><td>70.50</td><td>70.50</td><td>70.50</td><td>70.50</td><td>70.50</td></tr>
+	<tr><th>Head tube length</th><td>92</td><td>110</td><td>120</td><td>138</td><td>157</td><td>176</td><td>199</td><td>218</td></tr>
+	<tr><th>Seat tube angle*</th><td>73.50</td><td>73.00</td><td>72.75</td><td>72.75</td><td>72.50</td><td>72.50</td><td>72.50</td><td>72.50</td></tr>
+	<tr><th>Seat tube length**</th><td>412</td><td>433</td><td>454</td><td>475</td><td>497</td><td>528</td><td>550</td><td>571</td></tr>
+	<tr><th>Chainstay length</th><td>420</td><td>420</td><td>425</td><td>427</td><td>430</td><td>435</td><td>440</td><td>445</td></tr>
+	<tr><th>Bottom bracket drop</th><td>74</td><td>74</td><td>86</td><td>86</td><td>86</td><td>86</td><td>86</td><td>86</td></tr>
+	<tr><th>Bottom bracket height***</th><td>275</td><td>275</td><td>282</td><td>282</td><td>282</td><td>282</td><td>282</td><td>282</td></tr>
+	<tr><th>Wheel size</th><td>650b</td><td>650b</td><td>700c</td><td>700c</td><td>700c</td><td>700c</td><td>700c</td><td>700c</td></tr>
+	<tr><th>Wheelbase</th><td>991</td><td>1008</td><td>1025</td><td>1045</td><td>1066</td><td>1089</td><td>1113</td><td>1136</td></tr>
+	<tr><th>Mechanical trail</th><td>63</td><td>63</td><td>70</td><td>70</td><td>70</td><td>70</td><td>70</td><td>70</td></tr>
+	</tbody>
+</table>
+<p><small>*Angle determined at average saddle height<br />
+**Center to top<br />
+***Measured with 57mm (2.25") tire</small></p>
+</section>
+
+<section class="full">
+	<hgroup>
+		<h2 class="h1">Frame fit calculator</h2>
+		<p>Find your frame size fast.</p>
+	</hgroup>
+	
+	<div class="grid">
+		<div class="stack">
+			<h3>How to use the calculator</h3>
+			<iframe class="video" src="https://youtu.be/-NCsHwRPec4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+		</div>
+		<div class="calconic-calculator"  data-calculatorid="6703f004cb6756002ac8d309"></div>
+		<script>
+			(function() { var qs,j,q,s,d=document, gi=d.getElementById,
+			ce=d.createElement, gt=d.getElementsByTagName,
+			id="calconic_", b="https://cdn.calconic.com/static/js/";
+			if(!gi.call(d,id)) { j=ce.call(d,"script"); j.id=id; j.type="text/javascript"; j.async=true;
+			j.dataset.calconic=true;
+			j.src=b+"calconic.min.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(j,q) }
+			})();
+		</script>
+	</div>
+</section>
+
+<section class="bump">
+<h2 class="center">FAQ</h2>
+<div class="stack">
+<details>
+		<summary>What are the frame specs?</summary>
         <div>
 			<table>
 				<tbody>
@@ -121,7 +163,7 @@ Soon you'll also be able to easily figure out what size frame will fit you. I'm 
 		</div>
     </details>
     <details>
-		<summary>Included with frame</summary>
+		<summary>What's included with the frame?</summary>
 		<div>
 			<ul>
                 <li>Seido MGV fork unpainted</li>
@@ -136,20 +178,21 @@ Soon you'll also be able to easily figure out what size frame will fit you. I'm 
 		</div>
     </details>
     <details>
-		<summary>Color options</summary>
+		<summary>What are my color options?</summary>
         <div>
             <p>Choose from vanilla, cherry, or ocean. More details coming soon...</p>
         </div>
     </details>
-	</div>
-
-## FAQ
-
-<div class="details-wrapper bump">
+	<details>
+		<summary>Can I get the frame and/or fork custom painted?</summary>
+		<div>
+			<p>Yes you can. <a href="/contact">Contact me</a> for pricing and turnaround time.</p>
+		</div>
+	</details>
 	<details>
 		<summary>Can I run a front derailleur?</summary>
 		<div>
-			<p>No. The bike frame is optimized for 1x drivetrains.</p>
+			<p>No. The bike frame is optimized for 1x drivetrains. The performance and comfort benefits of wider tires trumps the benefits of 2x drivetrains.</p>
 		</div>
 	</details>
 	<details>
@@ -168,12 +211,6 @@ Soon you'll also be able to easily figure out what size frame will fit you. I'm 
 		<summary>What's the max weight I can carry on the fork?</summary>
 		<div>
 			<p>The Seido MGV fork can carry a max load of 6.6lbs using a 2-bolt cage, 9.9lbs using a 3-bolt cage, 44lbs for a lowrider rack with 4 mounting points, and 22lbs for a rack with 3 mounting points.</p>
-		</div>
-	</details>
-	<details>
-		<summary>Can I get the frame and/or fork custom painted?</summary>
-		<div>
-			<p>Yes you can. Contact me for pricing and turnaround time.</p>
 		</div>
 	</details>
 	<details>
@@ -197,9 +234,10 @@ Soon you'll also be able to easily figure out what size frame will fit you. I'm 
 	<details>
 		<summary>Can I run my housing internally?</summary>
 		<div>
-			<p>The Whippet is designed to be easy to maintain. All lines run externally along the down tube with a port in the seat tube for running an optional dropper post. If you want a bike with full internal lines, I'm happy to make you a custom bike instead.</p>
+			<p>The Whippet is designed to be easy to maintain. All lines run externally along the down tube with a port in the seat tube for running an optional dropper post. If you want a bike with full internal lines, I'm happy to make you a <a href="/bikes/gravel">custom bike</a> instead.</p>
 		</div>
 	</details>
 </div>
+</section>
 
 

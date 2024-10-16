@@ -32,7 +32,7 @@ Collin was kind enough to let me show off his new baby at the MADE bike show. He
 
 I found a vintage children's towel with a cute space theme. The purple, yellow, and aqua color combination caught my eye. Plus, all the astronauts are wearing helmets, and the dog is just chillin' in space helmetless and happy. 
 
-<div class="feature card-grid">
+<div class="feature grid">
 {% img "9eba179f-be02-4eae-95f6-862ec9858c55", "Manzanita signature double arch seat stay bridge" %}
 {% img "257f38e1-e9de-4d51-986e-8f524628a229", "Unicrown fork with White Industries headset" %}
 </div>
@@ -61,7 +61,7 @@ The latest 12-speed version of XT has been on the market for a few years and has
 
 Collin added a White Industries crankset with a 30-tooth chainring to break up the complete XT build. The White Industries crank is the gold standard for toughness. Plus, it's made close to Manzanita headquarters in Petaluma, California.
 
-<div class="feature card-grid">
+<div class="feature grid">
 {% img "e918e3b2-26cb-4e7e-b7f3-871c3309afc9", "White Industries crankset with XT 12 speed drivetrain"%}
 {% img "b2825132-2fd4-43d3-af0f-3f3874d3c7bc", "Shimano XT drivetrain and snap ring dropouts" %}
 </div>

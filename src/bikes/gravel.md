@@ -7,7 +7,7 @@ metaDesc: A versatile bikepacking, dirt-road-loving, adventure machine.
 
 {% img "e354dec1-82fa-4fcf-ba8d-c37cbd9280cd", "29er gravel bike with 520mm long chainstays", "feature" %}
 
-## The versatile adventure machine
+<h2 class="h1 center feature">The versatile adventure machine</h2>
 
 There's no wrong way to set up a gravel bike. Whether you prefer a fat-tire road bike, a progressive drop bar mountain bike, or something in between, it all depends on the terrain you enjoy riding and your comfort with underbiking.
 
@@ -19,7 +19,6 @@ Starting at **{{ pricing.baseFrame }}**
 
 {% include "partials/_cta.njk" %}
 
-<div class="details-wrapper bump mt-2xl">
 <details>
     <summary>Frame specifications</summary>
     <div>
@@ -94,7 +93,7 @@ Starting at **{{ pricing.baseFrame }}**
         <p>If you choose the Manzanita fork, the frame's head tube can be smaller since it doesn't have to fit a tapered steerer tube.</p>
         <p>Manzanita forks are only available with IS brake mounts. If you want to use flat mount brakes, consider going with a carbon fork instead.</p>
         <p><strong>Custom fork options</strong></p>
-        <table class="mt-s">
+        <table>
             <tbody>
                 <tr>
                     <th>3-pack mounts on fork blades</th>
@@ -112,13 +111,11 @@ Starting at **{{ pricing.baseFrame }}**
         </table>
     </div>
 </details>
-</div>
 
 {% img "69acfe5e-8a34-4d35-8b41-039f3765edc4", "Gravel bike with steel fork", "feature mt-2xl" %}
 
-<div class="card-grid feature">
-    {% img "d7902a6f-6ca5-4f46-8c03-9af421866827", "1x Sram gravel bike" %}
-    {% img "51e1f59a-1b8c-4430-8466-7c2f8f8a654b", "Dark red gravel bike with dropper post" %}
-</div>
+{% img "d7902a6f-6ca5-4f46-8c03-9af421866827", "1x Sram gravel bike" %}
+
+{% img "51e1f59a-1b8c-4430-8466-7c2f8f8a654b", "Dark red gravel bike with dropper post" %}
 
 {% img "5b588f68-ded5-49f7-9d9c-15ef7d094a5b", "gravel bike with mountain bike tires", "feature" %}

@@ -16,11 +16,11 @@ Like her bikepacker, we designed the bike around the Velo Orange Crazy Bars. Moi
 
 She also wanted lights, fenders, and a rear rack. A dynamo system covers front and rear lights. Dynamo setups are convenient. You never have to worry about charging batteries. You can even run your lights during the day for a little extra visibility to drivers. Wiring for the rear light runs internally through the frame and rear Tubus rack.
 
-<div class="card-grid feature">
+<div class="grid feature">
 {% img "262a2ed8-6bd7-49b2-8538-3f9ecf39e68b", "SP dynamo hub" %}
 {% img "46122563-59af-4ce2-9917-bf4d8ab0186e", "Dynamo headlight" %}
 </div>
-<div class="card-grid feature">
+<div class="grid feature">
 {% img "dbcc80c0-86fb-46e8-871b-d14cddafba3c", "Dynamo light mounted to fork crown" %}
 {% img "181fe155-beb4-4e02-b573-23c548f5b4b5", "Dynamo light mounted to fork crown" %}
 </div>

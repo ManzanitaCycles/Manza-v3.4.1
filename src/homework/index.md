@@ -5,6 +5,7 @@ layout: layouts/page.njk
 metaDesc: Undercover page on the site for customers to get started after placing a deposit.
 type: article
 robots: none
+eleventyExcludeFromCollections: true
 ---
 
 You've decided to add a Manzanita to your stable. But before that happens, you'll need to provide some information so that your new bike will fit and ride well.

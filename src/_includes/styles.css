@@ -1,31 +1,37 @@
+/* #region root */
+/* @link https://utopia.fyi/type/calculator?c=320,16,1.25,1900,20,1.5,4,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
 :root {
-    /* @link https://utopia.fyi/type/calculator?c=320,16,1.25,1900,20,1.5,3,1,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
-    --fs--1: clamp(0.8rem, 0.783rem + 0.0851vi, 0.884rem);
-    --fs-0: clamp(1rem, 0.9494rem + 0.2532vi, 1.25rem);
-    --fs-1: clamp(1.25rem, 1.1452rem + 0.5241vi, 1.7675rem);
-    --fs-2: clamp(1.5625rem, 1.3728rem + 0.9486vi, 2.4992rem);
-    --fs-3: clamp(1.9531rem, 1.633rem + 1.6008vi, 3.5339rem);
+  --fs--1: clamp(0.8rem, 0.7932rem + 0.0338vw, 0.8333rem);
+  --fs-0: clamp(1rem, 0.9494rem + 0.2532vw, 1.25rem);
+  --fs-1: clamp(1.25rem, 1.1234rem + 0.6329vw, 1.875rem);
+  --fs-2: clamp(1.5625rem, 1.3093rem + 1.2658vw, 2.8125rem);
+  --fs-3: clamp(1.9531rem, 1.4943rem + 2.2943vw, 4.2188rem);
+  --fs-4: clamp(2.4414rem, 1.6542rem + 3.9359vw, 6.3281rem);
    
-     --s-2xs: clamp(0.5rem, 0.4747rem + 0.1266vi, 0.625rem);
-     --s-xs: clamp(0.75rem, 0.712rem + 0.1899vi, 0.9375rem);
-     --s-s: clamp(1rem, 0.9494rem + 0.2532vi, 1.25rem);
-     --s-m: clamp(1.5rem, 1.4241rem + 0.3797vi, 1.875rem);
-     --s-l: clamp(2rem, 1.8987rem + 0.5063vi, 2.5rem);
-     --s-xl: clamp(3rem, 2.8481rem + 0.7595vi, 3.75rem);
-     --s-2xl: clamp(4rem, 3.7975rem + 1.0127vi, 5rem);
-     --s-3xl: clamp(6rem, 5.6962rem + 1.519vi, 7.5rem);
+  --s-3xs: clamp(0.25rem, 0.2373rem + 0.0633vw, 0.3125rem);
+  --s-2xs: clamp(0.5rem, 0.4747rem + 0.1266vw, 0.625rem);
+  --s-xs: clamp(0.75rem, 0.712rem + 0.1899vw, 0.9375rem);
+  --s-s: clamp(1rem, 0.9494rem + 0.2532vw, 1.25rem);
+  --s-m: clamp(1.5rem, 1.4241rem + 0.3797vw, 1.875rem);
+  --s-l: clamp(2rem, 1.8987rem + 0.5063vw, 2.5rem);
+  --s-xl: clamp(3rem, 2.8481rem + 0.7595vw, 3.75rem);
+  --s-2xl: clamp(4rem, 3.7975rem + 1.0127vw, 5rem);
+  --s-3xl: clamp(6rem, 5.6962rem + 1.519vw, 7.5rem);
+
+  /* One-up pairs */
+  --s-3xs-2xs: clamp(0.25rem, 0.1741rem + 0.3797vw, 0.625rem);
+  --s-2xs-xs: clamp(0.5rem, 0.4114rem + 0.443vw, 0.9375rem);
+  --s-xs-s: clamp(0.75rem, 0.6487rem + 0.5063vw, 1.25rem);
+  --s-s-m: clamp(1rem, 0.8228rem + 0.8861vw, 1.875rem);
+  --s-m-l: clamp(1.5rem, 1.2975rem + 1.0127vw, 2.5rem);
+  --s-l-xl: clamp(2rem, 1.6456rem + 1.7722vw, 3.75rem);
+  --s-xl-2xl: clamp(3rem, 2.5949rem + 2.0253vw, 5rem);
+  --s-2xl-3xl: clamp(4rem, 3.2911rem + 3.5443vw, 7.5rem);
    
-     /* One-up pairs */
-     --s-2xs-xs: clamp(0.5rem, 0.4114rem + 0.443vi, 0.9375rem);
-     --s-xs-s: clamp(0.75rem, 0.6487rem + 0.5063vi, 1.25rem);
-     --s-s-m: clamp(1rem, 0.8228rem + 0.8861vi, 1.875rem);
-     --s-m-l: clamp(1.5rem, 1.2975rem + 1.0127vi, 2.5rem);
-     --s-l-xl: clamp(2rem, 1.6456rem + 1.7722vi, 3.75rem);
-     --s-xl-2xl: clamp(3rem, 2.5949rem + 2.0253vi, 5rem);
-     --s-2xl-3xl: clamp(4rem, 3.2911rem + 3.5443vi, 7.5rem);
-   
-     --ratio: 1.5;
-     --padding: var(--s-s);
+  --ratio: 1.5;
+  --padding: var(--s-s);
+  --radius: .5rem;
    
      /* Colors */
      --light: #F9F7F3;
@@ -34,7 +40,9 @@
      --darkish: #757070;
      --highlight: #A51323;
    }
+/* #endregion */
 
+/* #region Reset */
 /* Andy Bell Reset */
 /* Box sizing rules */
 *,
@@ -71,7 +79,7 @@ body {
 /* Set shorter line heights on headings and interactive elements */
 h1, h2, h3, h4,
 button, input, label {
-  line-height: 1.15;
+  line-height: 1.1;
 }
 
 /* Balance text wrapping on headings */
@@ -102,12 +110,10 @@ ul, ol {
 }
 
 /* Make images easier to work with */
-img,
-picture {
+img {
   height: auto;
   max-width: 100%;
   display: block;
-  border: 1px solid var(--lightish);
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -126,33 +132,61 @@ textarea:not([rows]) {
   min-height: 10em;
 }
 
-/** END RESET **/
+/* #endregion reset*/
+
+/* #region typography */
 
 h1 {
-    font-size: var(--fs-3);
-    letter-spacing: -.01em;
+  font-size: var(--fs-4);
+  letter-spacing: -.01em;
+  text-align: center;
 }
 
 h2 {
-    font-size: var(--fs-2);
+  font-size: var(--fs-2);
 }
 
 h3 {
-    font-size: var(--fs-1);
+  font-size: var(--fs-1);
 }
 
 small {
-    font-size: var(--fs--1);
+  font-size: var(--fs--1);
 }
 
-/* Remove list styles on nav ul elements */
+/* #endregion */
 
+/* #region components */
+
+/* YouTube video responsive */
+.video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+
+/* Footer form */
+footer form {
+  max-width: 25rem;
+}
+
+/* blockquote */
+.quote figcaption{
+  color: var(--darkish);
+}
+.quote blockquote {
+  font-style: italic;
+}
+
+/* Set horizontal nav bar */
 nav ul {
   list-style: none;
   padding-left: 0;
   margin-block: 0;
 }
-
+nav a {
+  text-decoration: none;
+}
+.flex,
 nav,
 nav ul {
     display: flex;
@@ -160,192 +194,78 @@ nav ul {
     align-items: center;
     gap: var(--s-s-m);
 }
-
+.flex,
 nav {
   flex-wrap: wrap;
 }
 
-nav ul {
-  line-height: 0;
-}
-
-header nav {
-  padding-top: var(--padding);
-}
-
-header,
-section,
-footer,
-.pagination {
-    margin-inline: auto;
-    width: min(75rem, 100% - var(--s-s) * 2);
-}
-
-.stack > * + * {
-    margin-top: calc(var(--ratio)*1em);
-}
-
-/* Grid-based layout that allows classed objects to expand outside the parent's width */
-.prose {
-    --gap: var(--s-s-m);
-    --full: minmax(var(--gap), 1fr);
-    --content: min(55ch, 100% - var(--gap) * 2);
-    --bump: minmax(0,var(--s-l));
-    --feature: minmax(0, var(--s-3xl));
-  
-    display: grid;
-    grid-template-columns:
-      [full-start] var(--full)
-      [feature-start] var(--feature)
-      [bump-start] var(--bump)
-      [content-start] var(--content) [content-end]
-      var(--bump) [bump-end]
-      var(--feature) [feature-end]
-      var(--full) [full-end];
-  }
-  
-  /* Set all children to central grid template column */
-  .prose > * {
-    grid-column: content;
-  }
-  
-  /* Set item to be much wider than main content */
-  .feature {
-    grid-column: feature;
-  }
-  
-  /* Set item to be a little wider than main content */
-  .bump {
-    grid-column: bump;
-  }
-
-  /* Layouts */
-
-  .details-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: var(--s-2xs);
-  }
-  
-  summary  {
-    list-style: none;
-    cursor: pointer;
-    font-weight: 700;
-    display: flex;
-    justify-content: space-between;
-    padding: var(--padding);
-    border: 1px solid var(--lightish);
-    background-color: #fff;
-  }
-  
-  /* Remove default marker for Safari */
-  summary::-webkit-details-marker {
-    display: none;
-  }
-  
-  summary:after {
-    content: "\0276f";
-  }
-  
-  details[open] summary:after {
-    content:"\0276f";
-    transform: rotate(270deg);
-  }
-  
-  details[open] summary {
-    border-bottom:0;
-  }
-  
-  details div {
-    padding: var(--padding);
-    padding-top: 0;
-    border: 1px solid var(--lightish);
-    border-top:0;
-    background-color: #fff;
-  }
-
-  details div :first-child {
-    margin-top: 0;
-  }
-
-  details div:not(:first-child) {
-    padding-top: var(--s-s);
-  }
-
-  .card {
-    padding: var(--padding);
-    background-color: #fff;
-    border: 1px solid var(--lightish);
-  }
-
-  .card figcaption p:first-of-type {
-    margin-top: 0;
-  }
-  .switcher {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--padding);
-  }
-  
-  .switcher > * {
-    flex-grow: 1;
-    flex-basis: calc(( 34rem - 100%) * 999);
-  }
-  
-  .switcher > :nth-last-child(n+ 5),
-  .switcher > :nth-last-child(n+ 5) ~ * {
-    flex-basis: 100%;
-  }
-
-  .swatch-grid {
-    display: grid;
-    grid-gap: var(--padding);
-    justify-items: center;
-    text-align: center;
-  }
-
-  .swatch-grid img {
-    margin-inline: auto;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-  }
-  
-  @supports (width: min(100px, 100%)) {
-    .swatch-grid {
-      grid-template-columns: repeat(auto-fit, minmax(min(100px, 100%), 1fr));
-    }
-  }
-
-  .swatch-grid figcaption {
-    line-height: 1;
-  }
-
-  footer {
-    border-top: 1px solid var(--lightish);
-    margin-top: var(--s-2xl-3xl);
-    margin-bottom: var(--padding);
-    text-align: center;
-  }
-
-  footer nav {
-    margin-top: var(--s-2xl-3xl);
-    justify-content: center;
-  }
-
-  footer p {
-    margin-top: var(--s-xl-2xl);
-  }
-
-form {
-  border: 1px solid var(--lightish);
+/* Give all figures a card appearance */
+figure {
   padding: var(--padding);
-  margin-top: var(--s-l);
+  background-color: #fff;
+  border-radius: var(--radius);
+  margin-block: 0;
+  cursor: pointer;
 }
 
+/* All links with role=button get button styles */
+[role=button] {
+  background-color: var(--dark);
+  color: var(--light);
+  border-radius: var(--radius);
+  padding: var(--padding);
+  text-decoration: none;
+}
+
+/* Style Details and Summary elements as accordions */
+summary  {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding);
+  background-color: #fff;
+  border-radius: var(--radius);
+}
+/* Remove default marker for Safari */
+summary::-webkit-details-marker {
+  display: none;
+}
+summary:after {
+  content: "\0276f";
+}
+details[open] summary:after {
+  content:"\0276f";
+  transform: rotate(270deg);
+}
+details[open] summary {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+details div {
+  padding: var(--padding);
+  padding-top: 0;
+  background-color: #fff;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+details div :first-child {
+  margin-top: 0;
+}
+details div:not(:first-child) {
+  padding-top: var(--s-s);
+}
+
+/* Style forms */
+form {
+  background-color: #fff;
+  padding: var(--padding);
+  border-radius: var(--radius);
+}
 form input, form textarea, form label {
   font-size: var(--fs--1);
 }
-
 form input,
 form textarea {
   border: 1px solid var(--lightish);
@@ -354,179 +274,207 @@ form textarea {
   padding: var(--padding);
   width: 100%;
 }
-
 form input:focus,
 form textarea:focus {
   border-color: var(--darkish);
 }
-
 form button {
   cursor: pointer;
   width: 100%;
   outline: none;
   border: none;
-  background-color: var(--highlight);
-  color: var(--light);
-  text-transform: uppercase;
-  padding: var(--padding);
-  font-weight: 700;
-  letter-spacing: .02em;
 }
-
 form label,
 form button {
   margin-top: var(--padding);
 }
-
 form input,
 form textarea {
   margin-top: var(--s-2xs);
 }
-
 form label:first-of-type {
   margin-top: 0;
 }
 
-form label[for="bot"],
-form input[name="bot-field"] {
-  display: none;
+/* Style Tables */
+table {
+  width: 100%;
+  border: 1px solid var(--lightish);
+  border-collapse: collapse;
+  background-color: #fff;
+}
+th {
+  text-align: left;
+}
+th,
+td {
+  padding-block: calc(var(--s-s)/2);
+  padding-inline: var(--s-xs);
+  font-size: var(--fs--1);
+}
+tr:nth-child(even) {
+  background-color: var(--light);
 }
 
-.card-grid {
-  display: grid;
-  grid-gap: var(--padding);
-}
-
-.card-grid figure {
-  margin-block:0;
-}
-
-@supports (width: min(300px, 100%)) {
-  .card-grid {
-    grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
-  }
-}
-
-hgroup p {
-  color: var(--darkish);
-}
-
-hgroup > * {
-  margin: 0;
+/* hgroup styles */
+hgroup {
   text-align: center;
 }
+hgroup p {
+  color: var(--darkish);
+  margin-block-start: 0;
+}
 
+/* Card styles */
+.card {
+  background-color: var(--dark);
+  color: var(--light);
+  padding: var(--padding);
+  margin-top: 0;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+/* #endregion */
+
+/* #region layout */
+
+/* Center main regions on screen */
+header,
+section,
+footer,
+article {
+    margin-inline: auto;
+    width: min(90rem, 100% - var(--s-s) * 2);
+}
+
+/* Add some padding above the nav bar */
+header {
+  padding-top: calc(var(--ratio)*1rem);
+}
+
+/* Define padding around Article H1s */
+article h1 {
+  margin-block-start: var(--s-l-xl);
+  margin-block-end: var(--s-s-m);
+}
+
+/* section styles */
 section + section {
   margin-top: var(--s-2xl-3xl);
 }
-
-.cta {
-  background-color: var(--highlight);
-  color: var(--light);
-  text-transform: uppercase;
-  font-size: var(--fs--1);
-  letter-spacing: .02em;
-  font-weight: 700;
-  padding: var(--s-s);
-  text-decoration: none;
-  display: inline-block;
+section > div {
+  margin-top: calc(var(--ratio)*1rem);
 }
 
-.cta-alt {
-  background-color: var(--dark);
+/* Define padding around footer */
+footer {
+  margin-block-start: var(--s-xl-2xl);
+  border-top: 1px solid var(--lightish);
+  padding-block-start: var(--s-xl-2xl);
+  padding-block-end: var(--s-m-l);
 }
 
-.center {
-  text-align: center;
-}
+/* Create grid-based prose styles for Articles */
+article {
+  --gap: var(--s-s-m);
+  --full: minmax(0, 1fr);
+  --content: min(55ch, 100% - var(--gap) * 2);
+  --bump: minmax(0,var(--s-xl));
+  --feature: minmax(0, var(--s-3xl));
 
-.overlay {
-  border-image: fill 1 linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.7));
-}
-
-.hero {
-  margin-top: var(--s-2xl);
-  color: var(--light);
-  background-image: url(https://ucarecdn.com/ff273bb7-d725-4cbc-89e9-e9461a74f0e2/);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-block-size: 80vh;
-  place-content: center;
-  text-align: center;
-}
-
-.hero h1 {
-  margin-top: 0;
-  text-transform: uppercase;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.highlights {
-  margin-top: var(--s-2xl);
-}
-.highlights figure {
   display: grid;
-  gap: var(--padding);
-  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
-  align-items: center;
+  grid-template-columns:
+    [full-start] var(--full)
+    [feature-start] var(--feature)
+    [bump-start] var(--bump)
+    [content-start] var(--content) [content-end]
+    var(--bump) [bump-end]
+    var(--feature) [feature-end]
+    var(--full) [full-end];
+}
+/* Set all children to central grid template column */
+article > * {
+  grid-column: content;
+}
+/* Set item to be much wider than main content */
+.feature,
+article h1 {
+  grid-column: feature;
+}
+/* Set item to be a little wider than main content */
+.bump {
+  grid-column: bump;
+}
+.full {
+  grid-column: full;
 }
 
-.highlights h3 {
-  margin-top: 0;
+/* Add vertical rhythym */
+article > * + *,
+.stack > * + * {
+  margin-top: calc(var(--ratio)*1em);
+}
+
+/* Layout for color swatches on info page */
+.swatch-grid {
+  display: grid;
+  grid-gap: var(--padding);
+  justify-items: center;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(min(100px, 100%), 1fr));
+}
+.swatch-grid img {
+  margin-inline: auto;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.swatch-grid figcaption {
+  line-height: 1;
+}
+
+/* Card grids */
+.switcher {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--padding);
+}
+.switcher > * {
+  flex-grow: 1;
+  flex-basis: calc(( 34rem - 100%) * 999);
+}
+.switcher > :nth-last-child(n+ 5),
+.switcher > :nth-last-child(n+ 5) ~ * {
+  flex-basis: 100%;
+}
+
+/* Blog grid */
+.grid {
+  display: grid;
+  grid-gap: var(--padding);
+  grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+}
+
+/* #endregion */
+
+/* #region utilities */
+
+.center {text-align: center;}
+
+.mt-b {
+  margin-block: calc(var(--ratio)*1rem + var(--padding));
 }
 
 .mt-0 {
   margin-top: 0;
 }
 
-.mt-s {
-  margin-top: var(--s-s);
+.h1 {
+  font-size: var(--fs-4);
+  letter-spacing: -.01em;
 }
-
-.mt-xl {
-  margin-top: var(--s-xl);
-}
-
-.mt-2xl {
-  margin-top: var(--s-2xl);
-}
-
-.bg-dark {
-  background-color: var(--dark)
-}
-
-.clr-light {
-  color: var(--light);
-}
-
-.button {
-  border: none;
-}
-
-table {
-  width: 100%;
-  border: 1px solid var(--lightish);
-  border-collapse: collapse;
-}
-
-th {
-  text-align: left;
-}
-
-th,
-td {
-  padding-block: calc(var(--s-s)/2);
-  padding-inline: var(--s-s);
-  font-size: var(--fs--1);
-}
-
-tr:nth-child(even) {
-  background-color: var(--light);
-}
-
-
-
-
-
-  
+/* #endregion */
