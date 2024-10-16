@@ -75,7 +75,7 @@ metaDesc: The Whippet is a fast and comfortable gravel bike that's easy to love.
 	<tr><th>Wheel size</th><td>650b</td><td>650b</td><td>700c</td><td>700c</td><td>700c</td><td>700c</td><td>700c</td><td>700c</td></tr>
 	<tr><th>Wheelbase</th><td>991</td><td>1008</td><td>1025</td><td>1045</td><td>1066</td><td>1089</td><td>1113</td><td>1136</td></tr>
 	<tr><th>Mechanical trail</th><td>63</td><td>63</td><td>70</td><td>70</td><td>70</td><td>70</td><td>70</td><td>70</td></tr>
-	<tr><th>Standover height***</th><td>719</td><td>728</td><td>747</td><td>756</td><td>764</td><td>773</td><td>784</td><td>793</td></tr>
+	<tr><th>Standover height***</th><td>713</td><td>732</td><td>771</td><td>790</td><td>809</td><td>833</td><td>854</td><td>872</td></tr>
 	</tbody>
 </table>
 <p><small>*Angle determined at average saddle height<br />
