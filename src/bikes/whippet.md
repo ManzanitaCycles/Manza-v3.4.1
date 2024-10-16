@@ -94,15 +94,15 @@ metaDesc: The Whippet is a fast and comfortable gravel bike that's easy to love.
 			<iframe class="video" src="https://youtu.be/-NCsHwRPec4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 		</div>
 		<div class="calconic-calculator"  data-calculatorid="6703f004cb6756002ac8d309"></div>
-		<script>
-			(function() { var qs,j,q,s,d=document, gi=d.getElementById,
-			ce=d.createElement, gt=d.getElementsByTagName,
-			id="calconic_", b="https://cdn.calconic.com/static/js/";
-			if(!gi.call(d,id)) { j=ce.call(d,"script"); j.id=id; j.type="text/javascript"; j.async=true;
-			j.dataset.calconic=true;
-			j.src=b+"calconic.min.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(j,q) }
-			})();
-		</script>
+    <script>
+          (function() { var qs,j,q,s,d=document, gi=d.getElementById,
+  ce=d.createElement, gt=d.getElementsByTagName,
+  id="calconic_", b="https://cdn.calconic.com/static/js/";
+  if(!gi.call(d,id)) { j=ce.call(d,"script"); j.id=id; j.type="text/javascript"; j.async=true;
+  j.dataset.calconic=true;
+  j.src=b+"calconic.min.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(j,q) }
+})();
+        </script>
 	</div>
 </section>
 
