@@ -1,5 +1,5 @@
 ---
-title: Manzanita Cycles values your privacy.
+title: Manzanita Cycles values your privacy
 layout: layouts/page.njk
 permalink: /privacy/
 metaDesc: Manzanita Cycles privacy policy.
@@ -15,4 +15,4 @@ When you make a purchase with Manzanita Cycles, your financial information is us
 
 If you have any questions about the use of your data, you can email [nick@manzanitacycles.com](mailto:nick@manzanitacycles.com).
 
-This policy was last updated on: *February 15, 2024*
+This policy was last updated on: *17 October 2024*
