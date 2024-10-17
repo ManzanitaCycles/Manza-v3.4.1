@@ -92,7 +92,7 @@ metaDesc: The Whippet is a fast and comfortable gravel bike that's easy to love.
 	<div class="grid">
 		<div class="stack">
 			<h3>How to use the calculator</h3>
-			<iframe class="video" src="https://www.youtube.com/embed/-NCsHwRPec4?si=zkmeCa2lrMsDhJS5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			<iframe class="video" src="https://www.youtube-nocookie.com/embed/-NCsHwRPec4?si=ALffgNJ932ucVdKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 		</div>
 		<iframe src="https://app.calconic.com/api/embed/calculator/6703f004cb6756002ac8d309" sandbox="allow-same-origin allow-forms allow-scripts allow-top-navigation allow-popups-to-escape-sandbox allow-popups" title="Calconic_ Calculator" name="Calconic_ Calculator" height="884px" scrolling="no" style="width: 100%; border: 0; outline: none;"></iframe><script>
 		(function() {
